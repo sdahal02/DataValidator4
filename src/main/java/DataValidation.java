@@ -32,12 +32,9 @@ public class DataValidation {
             //SchemaValidator schemaValidator = new SchemaValidator("json-schema.json");
 
             List<Map<String, Integer>> validationErros = schemaValidator.validate(jsonArray);
-            System.out.println("Total Objects:");
-            System.out.println(jsonArray.length());
-            System.out.println("Errors:");
-            System.out.println(validationErros.get(0));
-            System.out.println("Null Counts:");
-            System.out.println(validationErros.get(1));
+            System.out.println(("Total Objects:") +(jsonArray.length()));
+            System.out.println(("Errors:") + (validationErros.get(0)));
+            System.out.println(("Null Counts:") + (validationErros.get(1)));
 
         } catch (Exception e) {
             e.getMessage();
