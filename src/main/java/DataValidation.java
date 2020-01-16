@@ -35,6 +35,7 @@ public class DataValidation {
             System.out.println(("Total Objects:") +(jsonArray.length()));
             System.out.println(("Errors:") + (validationErros.get(0)));
             System.out.println(("Null Counts:") + (validationErros.get(1)));
+            //EKLINE JPT Comment add gareko test garnalai matra
 
         } catch (Exception e) {
             e.getMessage();
